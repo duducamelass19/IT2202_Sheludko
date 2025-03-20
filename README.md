@@ -1,10 +1,16 @@
-# MobileDevCourse_KubSAU
-# Шелудько Анастасия Александровна - ИТ2202
+# lab7
 
-репозиторий с лабораторными работами по курсу мобильной разработки
+A new Flutter project.
 
-## Описание
-В этом репозитории собраны все выполненные мной лабораторные работы в рамках учебного курса.
+## Getting Started
 
-## Автор
-Шелудько Анастасия Александровна Ит2202
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
