@@ -7,6 +7,12 @@ class Machine {
   final Resources resources = Resources();
 
   Future<void> makingCoffee(ICoffee coffee) async {
+    resources.setResource('coffeeBeans', resources.coffeeBeans - coffee.coffeeBeans());
+    resources.setResource('water', resources.water - coffee.water());
+    resources.setResource('milk', resources.milk - coffee.milk());
+
+    // Увеличиваем баланс
+    resources.setResource('cash', resources.cash + coffee.cash());
     print("*-------------*");
     print("_start_");
 
