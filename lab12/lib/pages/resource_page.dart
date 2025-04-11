@@ -42,7 +42,7 @@ class ResourcePage extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.only(right: 4), // Небольшой отступ справа
+                        padding: const EdgeInsets.only(right: 4), 
                         child: ElevatedButton.icon(
                           onPressed: () {
                             resourceManager.addResources(
@@ -61,7 +61,7 @@ class ResourcePage extends StatelessWidget {
                     ),
                     Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.only(left: 4), // Небольшой отступ слева
+                        padding: const EdgeInsets.only(left: 4), 
                         child: ElevatedButton.icon(
                           onPressed: () {
                             resourceManager.subtractResources(
