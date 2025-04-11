@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart'; // Главный импорт
+import 'package:provider/provider.dart'; 
 import 'pages/coffee_page.dart';
 import 'pages/resource_page.dart';
 import '../resource_manager.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider( // Теперь должен распознаваться
+    ChangeNotifierProvider( 
       create: (context) => ResourceManager(),
       child: const CoffeeMachineApp(),
     ),
